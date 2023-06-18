@@ -1,5 +1,5 @@
-class Ocaml_dev_tools < Formula
-  desc "The OCaml compiler and accompanying developer tools"
+class OcamlDevTools < Formula
+  desc "OCaml compiler and accompanying developer tools"
   homepage "https://ocaml.org/"
   license "LGPL-2.1-only" => { with: "OCaml-LGPL-linking-exception" }
   head "https://github.com/ocaml/ocaml.git", branch: "trunk"
@@ -21,5 +21,4 @@ class Ocaml_dev_tools < Formula
     system "make", "world.opt"
     system "make", "prefix=#{prefix}", "install"
   end
-
 end
