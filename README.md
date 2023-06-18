@@ -1,4 +1,4 @@
-# Avsm Ocaml
+# Anil's OCaml homebrew tap
 
 ## How do I install these formulae?
 
