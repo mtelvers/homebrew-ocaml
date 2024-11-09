@@ -1,11 +1,11 @@
 class Oxcaml < Formula
-  desc "OxCaml compiler and accompanying developer tools"
+  desc "The Oxidized OCaml compiler and accompanying developer tools"
   homepage "https://oxcaml.org/"
   license "LGPL-2.1-only" => { with: "OCaml-LGPL-linking-exception" }
+  url "https://github.com/avsm/homebrew-ocaml.git", branch: "main"
   version "5.2.0+with-extensions"
-  url "https://github.com/avsm/homebrew-ocaml.git", branch: "oxcaml"
 
-  depends_on "opam" => :build
+  depends_on "opam"
   depends_on "autoconf"
   depends_on "gpatch"
 
