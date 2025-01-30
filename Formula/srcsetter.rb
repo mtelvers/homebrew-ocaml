@@ -1,5 +1,5 @@
 class Srcsetter < Formula
-  desc "Srcsetter webp generator for responsive HTML sites"
+  desc "Webp image generator for responsive HTML sites"
   homepage "https://github.com/avsm/srcsetter/"
   url "https://github.com/avsm/srcsetter.git", branch: "main"
   version "0.0.1"
