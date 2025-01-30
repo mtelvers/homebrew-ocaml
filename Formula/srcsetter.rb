@@ -9,7 +9,7 @@ class Srcsetter < Formula
   depends_on "opam"
 
   def install
-    system "bash", "./localbuild.sh"
+    system "bash", "./.opambuild.sh"
     bin.install "_opam/bin/srcsetter"
   end
 end
