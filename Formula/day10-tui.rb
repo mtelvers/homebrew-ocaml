@@ -1,4 +1,4 @@
-class Day10_tui < Formula
+class Day10tui < Formula
   desc "Webp image generator for responsive HTML sites"
   homepage "https://github.com/mtelvers/day10-tui.git/"
   url "https://github.com/mtelvers/day10-tui.git", branch: "master"
