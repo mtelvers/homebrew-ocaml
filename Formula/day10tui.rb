@@ -6,6 +6,7 @@ class Day10tui < Formula
   license "ISC"
 
   depends_on "gpatch"
+  depends_on "pkg-config"
   depends_on "opam"
 
   def install
