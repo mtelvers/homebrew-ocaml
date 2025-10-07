@@ -5,6 +5,7 @@ class Day10tui < Formula
   version "0.0.1"
   license "ISC"
 
+  depends_on "apache-arrow"
   depends_on "gpatch"
   depends_on "libffi"
   depends_on "opam"
