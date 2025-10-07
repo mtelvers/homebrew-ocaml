@@ -6,8 +6,8 @@ class Day10tui < Formula
   license "ISC"
 
   depends_on "gpatch"
+  depends_on "libffi"
   depends_on "opam"
-  depends_on "pkg-config"
 
   def install
     system "bash", "./.opambuild.sh"
