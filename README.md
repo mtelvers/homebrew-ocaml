@@ -1,10 +1,10 @@
-# Anil's OCaml homebrew tap
+# Mark's OCaml homebrew tap
 
 ## How do I install these formulae?
 
-`brew install avsm/ocaml/<formula>`
+`brew install mtelvers/ocaml/<formula>`
 
-Or `brew tap avsm/ocaml` and then `brew install <formula>`.
+Or `brew tap mtelvers/ocaml` and then `brew install <formula>`.
 
 ## Documentation
 
